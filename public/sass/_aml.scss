@@ -39,7 +39,7 @@
 	background: $grey-4;
 }
 
-.header-user, 
+.header-user,
 .header-organisation {
 	border-bottom: 1px solid $grey-2;
 }
@@ -103,18 +103,18 @@ nav#user-nav {
 		position: relative;
 		@include media(tablet) {
 			float: right;
-			margin: 0;	
+			margin: 0;
 		}
 		li {
 			border-top: 1px solid $grey-2;
 			@include media(tablet) {
-				border: none;	
+				border: none;
 			}
 			a {
 				padding: 12px $nav-padding 10px 20px;
                 display: block;
 			}
-			li { 
+			li {
 				a {
 					padding-left: $nav-padding * 1;
 				}
@@ -135,7 +135,7 @@ nav#user-nav {
 					text-decoration: none;
 					color: $black;
 					margin-left: $nav-padding * 1;
-				}	
+				}
 			}
 			@include media(tablet) {
 				display: inline-block;
@@ -147,7 +147,7 @@ nav#user-nav {
 					 &.js-toggle {
 		                padding-left: 25px;
 	                }
-				}	
+				}
 				ul {
 					display: none;
 				}
@@ -173,7 +173,7 @@ nav#user-nav {
 								padding-right: 0;
 							}
 							&.selected a {
-								
+
 								margin-left: 0;
 							}
 						}
@@ -195,7 +195,7 @@ nav#user-nav {
 
 
 
-a.menu-open, 
+a.menu-open,
 a.menu-closed {
 	padding-left: 20px;
 	position: relative;
@@ -246,7 +246,7 @@ nav.global-nav {
                 &:focus {
                     outline: 0;
                 }
-               
+
             }
             &.current {
                 a {
@@ -270,7 +270,7 @@ nav.global-nav {
 		            position: absolute;
 	            }
 	            @include media(tablet) {
-		        	display: none;   
+		        	display: none;
 	            }
             }
         }
@@ -317,12 +317,12 @@ nav.global-nav ul {
 				    display: block;
 				    float: none;
 				    border-top: 1px solid $grey-2;
-				    
+
 			    }
 			}
 		}
 	}
-	
+
 }
 
 .service-info {
@@ -580,7 +580,7 @@ nav.global-nav ul {
   .html-publications-show .back-to-content {
     position: fixed;
     bottom: 15px;
-  }    
+  }
 }
 
 
@@ -594,7 +594,7 @@ nav.global-nav ul {
         .column-two-thirds {
             align-self: flex-end;
         }
-    
+
 .logo {
     border-left: 3px solid #003a69;
     padding-left: 0px;
@@ -624,7 +624,7 @@ nav.global-nav ul {
 .govuk-box-highlight {
     p, h1, h2 {
     margin: 0 auto;
-    max-width: 30em;        
+    max-width: 30em;
     }
     p {
         font-size: 24px;
@@ -706,7 +706,7 @@ tr.total td {
 
 .sprint-11, .sprint-15, .sprint-19 {
 
-    
+
     #checklist {
         .statusToDo {
             background: black;
@@ -721,11 +721,11 @@ tr.total td {
             padding-right: 0;
         }
     }
-    
+
 }
 
 .sprint-723 {
-    
+
     .page-dashboard .grid-row .column-half {
         min-height: 200px;
     }
@@ -740,7 +740,7 @@ tr.total td {
         margin-bottom: 30px;
         float: right;
     }
-    
+
     @media (min-width: 641px) {
         #dothething {
             margin-top: 40px;
@@ -753,7 +753,7 @@ tr.total td {
         margin-bottom: 30px;
         float: right;
     }
-    
+
     @media (min-width: 641px) {
         #dothething {
             margin-top: 40px;
@@ -761,8 +761,8 @@ tr.total td {
     }
 
 table {
-    .orgtype { 
-        display: inline-block; 
+    .orgtype {
+        display: inline-block;
     }
     .orgtype:first-letter {
         text-transform: uppercase;
@@ -875,15 +875,15 @@ span.notification {
           p {
                 float: left;
                 clear: both;
-            }  
+            }
         }
-    
-    
-    
 
 
-    
- 
+
+
+
+
+
     .show-pw.hide-pw {
         background: #6f777b;
         color: white;
@@ -915,7 +915,7 @@ span.notification {
         }
         .strong {
             background: #28A197;
-        }        
+        }
         .verystrong {
             background: #006435;
         }
@@ -932,7 +932,7 @@ span.notification {
         }
     }
     #passwordgroup {
-        
+
         .popover {
     position: relative;
     display: none;
@@ -973,8 +973,8 @@ span.notification {
             }
         }
     }
-    
-    @media (min-width: 960px) {    
+
+    @media (min-width: 960px) {
         #passwordgroup {
             .popover {
                     border-bottom: none;
@@ -984,15 +984,15 @@ span.notification {
                     border-color: transparent #005ea5 transparent transparent;
                     position: absolute;
                     left: -20px;
-                    top: 53px;                    
+                    top: 53px;
                 }
             }
         }
     }
-    
+
 }
 
-    @media (min-width: 641px) {    
+    @media (min-width: 641px) {
         .zxcvbn {
             .passwordContainer {
                     width: 50%;
@@ -1025,10 +1025,10 @@ span.notification {
             margin-right: 0%;
             width: 50%;
         }
-    }           
+    }
 
 }
-    
+
     .zxcvbn {
         .password-strength {
             width: 50%;
@@ -1056,10 +1056,10 @@ span.notification {
             margin-right: 0%;
             width: 50%;
         }
-    }           
+    }
 
 }
-    
+
     .zxcvbn {
     #passwordgroup {
         position: relative;
@@ -1261,14 +1261,14 @@ main[class*="test-react-"] {
             -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-        
+
         div {
                 height: 100%;
     z-index: 1;
             width: 100%;
         }
     }
-    
+
     #response div {
         text-align: left;
         width: 50vw;
@@ -1293,7 +1293,7 @@ main[class*="test-react-"] {
         }
         .detail {
         position: relative;
-        padding: 15px 0 0 0px;            
+        padding: 15px 0 0 0px;
         }
     }
 }
@@ -1313,7 +1313,7 @@ main[class*="test-react-"] {
         .content {
         float: right;
         width: 66.66667%;
-        }    
+        }
         address {
             margin-top: 48px;
         }
@@ -1443,7 +1443,7 @@ dl.confirm-details {
 
 
 table.form {
-    
+
     tbody > tr th {
             border-bottom: none;
         }
